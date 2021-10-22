@@ -1,4 +1,4 @@
-# youtube-nuxt-base
+# create-lama-codeur-nuxt
 
 ## Build Setup
 

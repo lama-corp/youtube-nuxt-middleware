@@ -5,6 +5,5 @@
 <script>
 export default {
   name: 'PageIndex',
-  layout: 'base.default',
 }
 </script>
