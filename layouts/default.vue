@@ -22,10 +22,12 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'LayoutDefault',
+  middleware: 'insideamiddleware',
+  // middleware: 'auth',
   computed: {
     ...mapState({
-      routes: (state) => state.routes
-    })
+      routes: (state) => state.routes,
+    }),
   },
 }
 </script>

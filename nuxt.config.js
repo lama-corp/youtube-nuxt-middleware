@@ -1,4 +1,7 @@
 export default {
+  ssr: true,
+  static: true,
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'create-lama-codeur-nuxt',
@@ -36,7 +39,11 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: ['@nuxtjs/axios'],
+
+  router: {
+    // middleware: 'stats',
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
