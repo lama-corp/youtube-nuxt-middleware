@@ -1,4 +1,6 @@
 export function routeOption(route, key, value) {
+  console.log(route)
+
   return route.matched.some((m) => {
     if (process.client) {
       // Client

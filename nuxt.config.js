@@ -39,9 +39,12 @@ export default {
   modules: ['@nuxtjs/axios'],
 
   router: {
+    prefetchLinks: false,
     // middleware: 'stats',
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // serverMiddleware: ['~/server-middleware/test'],
 }

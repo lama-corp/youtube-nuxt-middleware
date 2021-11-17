@@ -11,13 +11,6 @@ export default {
   //   }
   // },
 
-  middleware: [
-    () => console.log('!!!SALUT!!!'),
-    ({ route, store, redirect }) => {
-      if (!store.state.authenticated) {
-        return redirect('/login')
-      }
-    },
-  ],
+  middleware: [() => console.log('!!!SALUT!!!')],
 }
 </script>

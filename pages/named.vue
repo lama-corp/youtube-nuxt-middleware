@@ -7,7 +7,6 @@ export default {
   name: 'PageNamed',
   // middleware: 'auth',
   middleware: [
-    'auth',
     'another',
     () => {
       console.log('TEST')
