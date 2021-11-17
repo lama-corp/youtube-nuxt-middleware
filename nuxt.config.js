@@ -1,7 +1,4 @@
 export default {
-  ssr: true,
-  static: true,
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'create-lama-codeur-nuxt',
